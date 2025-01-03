@@ -7,10 +7,6 @@ html {
     height: 100%;
 }
 
-#right-container > *, #image-sidebar {
-    padding: 2rem;
-}
-
 #right-container > * {
     height: 100%;
 }
@@ -46,10 +42,18 @@ body {
 }
 
 #image-sidebar {
-    background-color: pink;
     background-image: url(picture.jpg);
     background-size: cover;
     width: 40%;
+}
+
+#image-logo {
+    box-sizing: content-box;
+    background-color: white;
+    position: relative;
+    top: 20%;
+    height: 14%
+    
 }
 
 
