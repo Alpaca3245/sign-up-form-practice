@@ -53,7 +53,24 @@ body {
     position: relative;
     top: 20%;
     height: 14%
-    
+}
+
+#limit-form {
+    display:flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+    padding: 5px;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+label {
+    font-size: 0.9rem;
+} 
+
+input {
+    height: 1rem;
+    width: 10rem;
 }
 
 
